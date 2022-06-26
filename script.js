@@ -1,4 +1,3 @@
-
 let hs = $('.horizontal-stripes');
 
 // Arrays to define the color palettes
@@ -51,34 +50,34 @@ let stripesHeight4 = stripes4.height();
 
 // Click function to change the height of stripe
 stripes1.click(function () {
-    // Change height of stripe to 650px if less or equal to original height
+    // Change height of stripe to 600px if less or equal to original height
     if ($(this).height() <= stripesHeight1) {
-        $(this).css('height', 650);
-    } else { // If stripe height is 650px then change back to original height
+        $(this).css('height', 700);
+    } else { // If stripe height is 600px then change back to original height
         $(this).css('height', stripesHeight1);
     }
 });
 stripes2.click(function () {
-    // Change height of stripe to 650px if less or equal to original height
+    // Change height of stripe to 600px if less or equal to original height
     if ($(this).height() <= stripesHeight2) {
-        $(this).css('height', 650);
-    } else { // If stripe height is 650px then change back to original height
+        $(this).css('height', 700);
+    } else { // If stripe height is 600px then change back to original height
         $(this).css('height', stripesHeight2);
     }
 });
 stripes3.click(function () {
-    // Change height of stripe to 650px if less or equal to original height
+    // Change height of stripe to 600px if less or equal to original height
     if ($(this).height() <= stripesHeight3) {
-        $(this).css('height', 650);
-    } else { // If stripe height is 650px then change back to original height
+        $(this).css('height', 700);
+    } else { // If stripe height is 600px then change back to original height
         $(this).css('height', stripesHeight3);
     }
 });
 stripes4.click(function () {
-    // Change height of stripe to 650px if less or equal to original height
+    // Change height of stripe to 600px if less or equal to original height
     if ($(this).height() <= stripesHeight4) {
-        $(this).css('height', 650);
-    } else { // If stripe height is 650px then change back to original height
+        $(this).css('height', 700);
+    } else { // If stripe height is 600px then change back to original height
         $(this).css('height', stripesHeight4);
     }
 });
